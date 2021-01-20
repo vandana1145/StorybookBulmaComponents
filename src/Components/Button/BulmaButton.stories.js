@@ -11,7 +11,7 @@ export default {
     component: BulmaButton 
 }
 
-export const Dark = () => <button variant="button is-dark">Dark</button>
-export const White = () => <button variant="button is-white">White</button>
-export const Text= () => <button variant="button is-text">Text</button>
-export const Ghost = () => <button variant="button is-ghost">Ghost</button>
+export const Dark = () => <BulmaButton variant="is-dark">Dark</BulmaButton>
+export const Danger = () => <BulmaButton variant="is-danger is-large">Danger</BulmaButton>
+export const Success= () => <BulmaButton variant="is-success">Success</BulmaButton>
+export const Primary = () => <BulmaButton variant="is-primary">Primary</BulmaButton>

@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import '../node_modules/bulma/css/bulma.min.css'
-import { Button } from 'react-bulma-components/dist';
+//import "~react-bulma-components/src/index.css";
+//import 'react-bulma-components/basic/react-bulma-components.min.css';
+import Button from 'react-bulma-components/lib/components/button';
 
 function App() {
   return (
@@ -11,14 +12,15 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <Button color="primary">My Bulma button</Button>
+        <br></br>
+        <div><Button className="button is-danger is-inverted is-large">Test Bulma button</Button></div>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learning React
         </a>
       </header>
     </div>
