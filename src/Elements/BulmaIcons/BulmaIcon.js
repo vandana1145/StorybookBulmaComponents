@@ -1,11 +1,13 @@
 import React from 'react';
-import { FaBeer } from 'react-icons/fa';
+import { FaApple } from 'react-icons/fa';
 
 const BulmaIcon = (props) => {
-    const { variant="icon-text icon has-text-infofas fa-info-circle", className, children, ...rest} = props
+    const { variant="icon", className, children, color, size, ...rest} = props
     return(
-        <div className={`icon ${variant}`} {...rest}>
-            {<FaBeer />}
+        <div>
+        <span className={`icon ${variant}`} {...rest}>
+            {<FaApple/>}
+        </span>
         </div>
     );
 }
