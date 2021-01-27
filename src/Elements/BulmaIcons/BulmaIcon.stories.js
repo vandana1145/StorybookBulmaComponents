@@ -10,6 +10,7 @@ export default{
 
 
 export const DefaultIcon = () => <BulmaIcon></BulmaIcon>
+export const IconWithText = () => <BulmaIcon text="Test" size="large"></BulmaIcon>
 export const InfoIcon = () => <BulmaIcon variant="has-text-info">{<FaApple/>}</BulmaIcon>
 export const DangerIcon = () => <BulmaIcon variant="has-text-danger"></BulmaIcon>
 export const WarningIcon = () => <BulmaIcon variant="has-text-warning"></BulmaIcon>
