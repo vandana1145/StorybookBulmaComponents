@@ -1,5 +1,4 @@
 import React from 'react';
-import BulmaTags from '../BulmaTags/BulmaTags';
 
 const BulmaTable = (props) => {
     const {variant="table", children, className, size, ...rest} = props
