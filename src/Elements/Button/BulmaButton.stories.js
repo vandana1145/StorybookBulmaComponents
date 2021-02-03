@@ -8,8 +8,8 @@ import 'react-bulma-components/dist/react-bulma-components.min.css';
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
     title: "Bulma-Elements/Button",
-    component: BulmaButton 
-}
+    component: BulmaButton, 
+};
 
 export const Dark = () => <BulmaButton variant="is-dark">Dark</BulmaButton>
 export const Danger = () => <BulmaButton variant="is-danger is-large">Danger</BulmaButton>
