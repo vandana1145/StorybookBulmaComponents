@@ -7,7 +7,7 @@ export default{
     title: 'Bulma-Elements/BulmaButtonControl',
     component: BulmaButtonControl,
     argTypes: {
-        ButtonColor: { control: 'className' },
+        color: { control: { type: "select", options: ["primary", "secondary"] }
     }
 };
 

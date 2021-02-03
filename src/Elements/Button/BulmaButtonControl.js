@@ -4,10 +4,9 @@ import PropTypes from 'prop-types';
 const BulmaButtonControl = (props) => {
     const {variant="button", className, children, color, size, ...rest} = props
     return(
-        <div className="buttons">
-            <button className="button is-dark">{className}</button>
-            <button className="button">{size}</button>
-        </div>
+        <button className={`button ${variant}`} {...rest}>
+        {children}
+    </button>
     );
 }
 
